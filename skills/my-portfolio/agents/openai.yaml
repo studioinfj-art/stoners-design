@@ -1,0 +1,4 @@
+interface:
+  display_name: "My Portfolio"
+  short_description: "Portfolio case-study trailer builder"
+  default_prompt: "Use $my-portfolio to create a metric-led product design case study in Figma."

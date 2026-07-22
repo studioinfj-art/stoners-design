@@ -1,0 +1,7 @@
+interface:
+  display_name: "Video Generator"
+  short_description: "Create Remotion motion graphics videos"
+  default_prompt: "Use $video-generator to create a polished Remotion product video."
+
+policy:
+  allow_implicit_invocation: true

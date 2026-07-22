@@ -1,0 +1,6 @@
+interface:
+  display_name: "Microsoft Design"
+  short_description: "Apply Microsoft AI-forward design patterns"
+  default_prompt: "Use $microsoft-design to redesign these frames with Microsoft-inspired UX, UI, interaction, and ergonomic improvements."
+policy:
+  allow_implicit_invocation: true

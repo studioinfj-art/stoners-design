@@ -1,0 +1,13 @@
+{
+  "name": "stoners-design",
+  "version": "0.2.0",
+  "description": "51 design skills and a searchable design MCP for Gemini CLI.",
+  "mcpServers": {
+    "stoners-design": {
+      "command": "node",
+      "args": ["${extensionPath}/mcp/server.mjs"],
+      "cwd": "${extensionPath}"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

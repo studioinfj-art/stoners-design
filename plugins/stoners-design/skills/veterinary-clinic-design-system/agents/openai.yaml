@@ -1,0 +1,5 @@
+interface:
+  display_name: "Veterinary Clinic Design System"
+  short_description: "Calm veterinary patient dashboard design"
+  brand_color: "#2D5BE3"
+  default_prompt: "Use $veterinary-clinic-design-system to design or review a veterinary patient dashboard screen."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Design Case Study"
+  short_description: "Write case studies from Figma evidence"
+  default_prompt: "Use $figma-design-case-study to turn this Figma file into a scannable case study with clear stakes, decisions, visuals, and only verified claims."

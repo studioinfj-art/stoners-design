@@ -1,0 +1,18 @@
+{
+  "name": "stoners-design",
+  "version": "0.2.0",
+  "description": "51 design skills and a searchable design MCP for Claude Code.",
+  "author": {
+    "name": "Ashish Ranjan"
+  },
+  "repository": "https://github.com/OWNER/stoners-design",
+  "license": "SEE LICENSES",
+  "keywords": ["design", "product-design", "ui", "ux", "figma", "motion", "frontend"],
+  "skills": "./skills/",
+  "mcpServers": {
+    "stoners-design": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/server.mjs"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Google Design"
+  short_description: "Material 3 frame redesign guidance"
+  default_prompt: "Use $google-design to redesign these frames with Material 3 patterns, Google UX principles, and ergonomic interactions."
+
+policy:
+  allow_implicit_invocation: true

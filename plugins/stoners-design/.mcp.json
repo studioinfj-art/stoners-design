@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "stoners-design": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/mcp/server.mjs"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

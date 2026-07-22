@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Audit"
+  short_description: "Audit PRDs for product, growth, and revenue gaps"
+  default_prompt: "Use $product-audit to audit this PRD, turn the audit into simple feature-specific questions, and suggest engagement and monetization improvements."

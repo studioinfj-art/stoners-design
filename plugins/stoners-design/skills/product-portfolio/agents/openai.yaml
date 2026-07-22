@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Portfolio"
+  short_description: "Build hiring-focused product design portfolios"
+  default_prompt: "Use $product-portfolio to critique my product design portfolio and turn it into an interview-focused version."

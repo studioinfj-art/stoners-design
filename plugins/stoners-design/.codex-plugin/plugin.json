@@ -1,0 +1,25 @@
+{
+  "name": "stoners-design",
+  "version": "0.2.0",
+  "description": "51 design skills for product strategy, UI/UX, Figma, brand, frontend craft, motion, and portfolios.",
+  "author": {
+    "name": "Ashish Ranjan"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Stoner's Design",
+    "shortDescription": "51 skills for exceptional product and visual design.",
+    "longDescription": "A portable design intelligence collection for product thinking, UI/UX, Figma workflows, brand systems, frontend execution, motion, visual QA, and portfolio storytelling.",
+    "developerName": "Ashish Ranjan",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "brandColor": "#66FF00",
+    "composerIcon": "./assets/plugin-cover.png",
+    "logo": "./assets/plugin-cover.png",
+    "defaultPrompt": [
+      "Design a polished product experience from this brief.",
+      "Audit this interface and improve its UX and visual quality.",
+      "Turn this design into a production-ready implementation."
+    ]
+  }
+}

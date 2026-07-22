@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Material Symbols Outlined";
+  font-style: normal;
+  font-weight: 100 700;
+  src: url("./MaterialSymbolsOutlined.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Material Symbols Rounded";
+  font-style: normal;
+  font-weight: 100 700;
+  src: url("./MaterialSymbolsRounded.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Material Symbols Sharp";
+  font-style: normal;
+  font-weight: 100 700;
+  src: url("./MaterialSymbolsSharp.woff2") format("woff2");
+}
+
+.material-symbols,
+.material-symbols-outlined,
+.material-symbols-rounded,
+.material-symbols-sharp {
+  display: inline-block;
+  direction: ltr;
+  font-size: var(--ms-size, 24px);
+  font-style: normal;
+  font-weight: var(--ms-weight, 400);
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga";
+  font-variation-settings:
+    "FILL" var(--ms-fill, 0),
+    "GRAD" var(--ms-grade, 0),
+    "opsz" var(--ms-opsz, 24),
+    "wght" var(--ms-weight, 400);
+}
+
+.material-symbols,
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+}
+
+.material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+}
+
+.material-symbols-sharp {
+  font-family: "Material Symbols Sharp";
+}
+
+.material-symbols[data-active="true"],
+.material-symbols-outlined[data-active="true"],
+.material-symbols-rounded[data-active="true"],
+.material-symbols-sharp[data-active="true"] {
+  --ms-fill: 1;
+}

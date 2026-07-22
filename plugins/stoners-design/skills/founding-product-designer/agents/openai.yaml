@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founding Product Designer"
+  short_description: "Product strategy and data-driven UX"
+  default_prompt: "Use $founding-product-designer to critique this product flow with founder-level product thinking and data-driven design recommendations."

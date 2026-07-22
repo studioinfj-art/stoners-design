@@ -1,0 +1,18 @@
+{
+  "source": "https://github.com/google/material-design-icons",
+  "license": "Apache-2.0",
+  "downloaded_at": "2026-05-24",
+  "files": [
+    "MaterialSymbolsOutlined.woff2",
+    "MaterialSymbolsRounded.woff2",
+    "MaterialSymbolsSharp.woff2",
+    "material-symbols.codepoints",
+    "material-symbols.css",
+    "LICENSE"
+  ],
+  "notes": [
+    "The three WOFF2 files are Material Symbols variable fonts.",
+    "Use material-symbols.codepoints for icon name and codepoint lookup.",
+    "Use material-symbols.css for self-hosted web prototypes or generated frontend work."
+  ]
+}

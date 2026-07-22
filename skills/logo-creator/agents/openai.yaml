@@ -1,0 +1,6 @@
+interface:
+  display_name: "Logo Creator"
+  short_description: "Create and package usable logo assets"
+  default_prompt: "Use $logo-creator to design logo concepts for my brand and prepare final assets."
+policy:
+  allow_implicit_invocation: true
