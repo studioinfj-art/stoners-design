@@ -17,32 +17,30 @@ The repository combines the open `SKILL.md` format with native manifests for Cod
 
 ## Install
 
-Replace `OWNER` with the published GitHub account in the commands below.
-
 ### Codex
 
 ```bash
-codex plugin marketplace add OWNER/stoners-design
+codex plugin marketplace add studioinfj-art/stoners-design
 codex plugin install stoners-design@stoners-design-marketplace
 ```
 
 ### Claude Code
 
 ```bash
-claude plugin marketplace add OWNER/stoners-design
+claude plugin marketplace add studioinfj-art/stoners-design
 claude plugin install stoners-design@stoners-design-marketplace
 ```
 
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/OWNER/stoners-design
+gemini extensions install https://github.com/studioinfj-art/stoners-design
 ```
 
 ### GitHub Copilot CLI
 
 ```bash
-copilot plugin install OWNER/stoners-design
+copilot plugin install studioinfj-art/stoners-design
 ```
 
 ### Cursor and other Agent Skills clients
