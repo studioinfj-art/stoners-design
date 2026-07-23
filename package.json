@@ -1,6 +1,6 @@
 {
   "name": "stoners-design-mcp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "Dependency-free MCP server for the Stoner's Design skill collection",
@@ -8,7 +8,8 @@
     "stoners-design-mcp": "./mcp/server.mjs"
   },
   "scripts": {
-    "test": "node scripts/validate.mjs"
+    "test": "node scripts/validate.mjs && node scripts/test-http.mjs",
+    "test:http": "node scripts/test-http.mjs"
   },
   "engines": {
     "node": ">=18"

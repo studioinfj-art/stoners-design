@@ -4,7 +4,7 @@
 
 51 design skills. One portable collection for product thinking, UX, visual design, Figma, frontend craft, motion, branding, and portfolio storytelling.
 
-The repository combines the open `SKILL.md` format with native manifests for Codex, Claude Code, Gemini CLI, GitHub Copilot CLI, and compatible Cursor workflows. It also includes a dependency-free MCP server for any client that supports MCP over stdio.
+The repository combines the open `SKILL.md` format with native manifests for Codex, Claude Code, Gemini CLI, GitHub Copilot CLI, and compatible Cursor workflows. It also includes a dependency-free MCP server for clients that support Streamable HTTP or stdio.
 
 ## What it can do
 
@@ -49,7 +49,27 @@ Use the repository's `skills/` directory as a skill source, or install individua
 
 ### Any MCP client
 
-Clone the repository, then configure a stdio server:
+Use the hosted Streamable HTTP endpoint:
+
+```text
+https://stoners-design-mcp.vercel.app/mcp
+```
+
+Codex:
+
+```bash
+codex mcp add stoners-design --url https://stoners-design-mcp.vercel.app/mcp
+```
+
+Claude Code:
+
+```bash
+claude mcp add --transport http stoners-design https://stoners-design-mcp.vercel.app/mcp
+```
+
+For other clients, choose the Streamable HTTP transport and paste the same endpoint.
+
+To run the MCP locally instead, clone the repository and configure this stdio server:
 
 ```json
 {
